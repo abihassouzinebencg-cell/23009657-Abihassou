@@ -53,7 +53,7 @@ La démarche suivie dans ce projet est la suivante :
 La régression linéaire est utilisée pour modéliser la relation entre différentes statistiques de match (pourcentages au tir, volume de tirs, rebonds offensifs, pertes de balle, etc.) et le nombre total de points marqués par une équipe.  
 Le modèle fournit un cadre simple pour interpréter l’impact de chaque variable sur le score attendu.
 
-![Régression linéaire : points réels vs prédits](régression linéaire.png)
+![Régression linéaire : points réels vs prédits](régression-linéaire.png)
 
 Sur ce graphique, l’axe horizontal représente les points réellement marqués et l’axe vertical les points prédits par le modèle.  
 La ligne pointillée rouge correspond à la prédiction parfaite : plus les points bleus sont proches de cette diagonale, plus le modèle est précis. L’alignement serré des observations autour de cette ligne montre que les statistiques de box-score expliquent bien la variance du nombre de points.
@@ -63,7 +63,7 @@ La ligne pointillée rouge correspond à la prédiction parfaite : plus les po
 La régression logistique prend des caractéristiques similaires (efficacité offensive, rebonds, turnovers, avantage domicile, etc.) mais cherche cette fois à prédire la probabilité qu’une équipe gagne le match.  
 Le modèle renvoie une probabilité de victoire comprise entre 0 et 1, qui peut ensuite être transformée en prédiction binaire (victoire/défaite) via un seuil (par exemple 0,5).
 
-![Régression logistique : courbe précision–rappel](logistic-regression.png)
+![Régression logistique : courbe précision–rappel](Régression-logistique.png)
 
 La courbe précision–rappel ci‑dessus montre comment évoluent la précision et le rappel lorsque l’on fait varier ce seuil.  
 Une aire sous la courbe proche de 1 (par exemple 0,94) indique qu’il est possible de maintenir une précision élevée tout en identifiant une grande proportion de matchs gagnés, ce qui témoigne d’un bon pouvoir discriminant du modèle pour distinguer les victoires des défaites.
