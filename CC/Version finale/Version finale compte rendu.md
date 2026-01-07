@@ -1,6 +1,6 @@
 | | |
 |---|---|
-| <img src="abihassou-zineb.jpeg" width="140" height="200"> | **Zineb Abihassou**<br>**23009657**<br>**Groupe: CAC 1** |
+| <img src="https://raw.githubusercontent.com/abihassouzinebencg-cell/23009657-Abihassou/refs/heads/main/CC/Version%20finale/abihassou-zineb.jpeg" width="140" height="200"> | **Zineb Abihassou**<br>**23009657**<br>**Groupe: CAC 1** |
 
 
 # Rapport d'analyse: NBA 2012–2024
