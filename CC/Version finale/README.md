@@ -53,7 +53,7 @@ La démarche suivie dans ce projet est la suivante :
 La régression linéaire est utilisée pour modéliser la relation entre différentes statistiques de match (pourcentages au tir, volume de tirs, rebonds offensifs, pertes de balle, etc.) et le nombre total de points marqués par une équipe.  
 Le modèle fournit un cadre simple pour interpréter l’impact de chaque variable sur le score attendu.
 
-![Régression linéaire : points réels vs prédits](CC/Régression-logistique.png)
+![Régression linéaire : points réels vs prédits](Régression-logistique.png)
 
 Sur ce graphique, l’axe horizontal représente les points réellement marqués et l’axe vertical les points prédits par le modèle.  
 La ligne pointillée rouge correspond à la prédiction parfaite : plus les points bleus sont proches de cette diagonale, plus le modèle est précis. L’alignement serré des observations autour de cette ligne montre que les statistiques de box-score expliquent bien la variance du nombre de points.
