@@ -1,4 +1,4 @@
-![Photo de zineb](abihassou-zineb.jpeg)
+<img src="abihassou-zineb.jpeg" width="140" height="200">
 
 # Rapport d'analyse: NBA 2012–2024
 
